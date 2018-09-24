@@ -7,15 +7,6 @@ class Power
       Scanner s=new Scanner (System.in);
       a=s.nextInt();
       b=s.nextInt();
-      if(a>=0&&b==0)
-     {
-        r=1;
-     }
-    else if(a==0&&b>=1)
-      { 
-         r=0;
-      }
-    else
      {
          for(int i=1;i<=b;i++)
 	      {
